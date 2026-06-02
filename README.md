@@ -1,46 +1,67 @@
-# Physics Engine
+# ⚙️ Physics Engine
 
 A simple 2D physics engine built in Rust using Macroquad.
 
-This project was created as a learning project to understand:
+Created as a learning project to understand how real physics engines work under the hood.
 
-- Rust fundamentals
+![Rust](https://img.shields.io/badge/Rust-2024-orange)
+![Macroquad](https://img.shields.io/badge/Framework-Macroquad-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## ✨ Features
+
+- 🌍 Gravity simulation
+- ⚡ Velocity & acceleration
+- 🟢 Circle rigid bodies
+- 💥 Ball-to-ball collision detection
+- 🧱 Wall & floor collisions
+- 🏀 Restitution (bounciness)
+- 🛞 Friction
+- 😴 Sleeping bodies
+- 🎨 Random colors
+- ⚖️ Random mass support
+- 📏 Random radius support
+- 🖱️ Click-to-spawn balls
+
+---
+
+## 📸 Preview
+
+Add a screenshot or GIF here.
+
+Example:
+
+![Preview](images/demo.gif)
+
+---
+
+## 🎮 Controls
+
+| Key | Action |
+|------|---------|
+| Left Click | Spawn Ball |
+| ESC | Exit |
+
+---
+
+## 🧠 What I Learned
+
+This project helped me learn:
+
+- Rust ownership & borrowing
+- Structs and modules
 - Physics simulation
 - Collision detection
 - Collision resolution
-- Game engine architecture
+- Game loops
+- Engine architecture
+- Performance optimization
 
-## Features
+---
 
-- Gravity
-- Ball-to-ball collisions
-- Wall collisions
-- Floor collisions
-- Restitution (bounciness)
-- Friction
-- Sleeping bodies
-- Random ball spawning
-- Random colors
-- Random masses
-- Random radii
-
-## Controls
-
-### Left Mouse Button
-
-Spawn a new ball at the cursor position.
-
-## Physics
-
-The engine currently supports:
-
-- Circle rigid bodies
-- Impulse-based collision response
-- Position correction
-- Gravity simulation
-- Sleeping bodies for performance
-
-## Project Structure
+## 📂 Project Structure
 
 ```text
 src/
@@ -51,3 +72,64 @@ src/
     ├── physics.rs
     ├── world.rs
     └── mod.rs
+```
+
+---
+
+## 🚀 Installation
+
+### Clone
+
+```bash
+git clone https://github.com/parth2152012/parth-engine.git
+cd parth-engine
+```
+
+### Run
+
+```bash
+cargo run --release
+```
+
+---
+
+## 🔨 Built With
+
+- Rust
+- Macroquad
+
+---
+
+## 🗺️ Roadmap
+
+Future ideas:
+
+- [ ] Rectangle bodies
+- [ ] Springs
+- [ ] Rope constraints
+- [ ] Spatial hashing
+- [ ] Pool game
+- [ ] Carrom game
+- [ ] WebAssembly build
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+
+Feel free to open an issue if you find a bug or have an idea.
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+## 👨‍💻 Author
+
+Built by Parth as a Rust learning project.
+
+GitHub: https://github.com/parth2152012
