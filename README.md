@@ -7,7 +7,7 @@ Created as a learning project to understand how real physics engines work under 
 ![Rust](https://img.shields.io/badge/Rust-2024-orange)
 ![Macroquad](https://img.shields.io/badge/Framework-Macroquad-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-crates.io :- https://crates.io/crates/ball_engine
+![crates.io](https://crates.io/crates/ball_engine)
 
 ---
 
