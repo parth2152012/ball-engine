@@ -24,7 +24,7 @@ fn random_radius() -> f32 {
 }
 
 fn random_mass() -> f32 {
-    let mut rad = random_radius();
+    let rad = random_radius();
     let mass = rad / 10.0;
     return mass;
 }
