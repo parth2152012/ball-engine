@@ -81,8 +81,8 @@ src/
 ### Clone
 
 ```bash
-git clone https://github.com/parth2152012/parth-engine.git
-cd parth-engine
+git clone https://github.com/parth2152012/ball-engine.git
+cd ball-engine
 ```
 
 ### Run
