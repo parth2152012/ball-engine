@@ -1,7 +1,11 @@
 [package]
 name = "ball_engine"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+description = "A 2D physics engine built in Rust using Macroquad."
+license = "MIT"
+repository = "https://github.com/parth2152012/ball-engine/"
+readme = "README.md"
 
 [dependencies]
 macroquad = "0.4.15"
